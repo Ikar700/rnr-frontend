@@ -1,0 +1,123 @@
+.header-carousel-container {
+    position: relative;
+  }
+  
+  .header-top-strip {
+    position: absolute;
+    top: 1px; /* Push content down by 1px */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 0; /* Adjust padding to fit the row height */
+    z-index: 10; /* Ensure the header is on top */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-xxl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px; /* Adjust this width as needed */
+  }
+  
+  .logo img {
+    max-height: 70px; /* Adjust the logo size as needed */
+    max-width: 100px;
+  }
+  
+  .search-box-container {
+    flex-grow: 1;
+    padding: 0 10px; /* Adjust the padding to reduce space */
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: transparent; /* Fully transparent background */
+    color: white;
+  }
+  
+  .search-box::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .custom-carousel {
+    height: 980px; /* Specify your desired height */
+  }
+  
+  .custom-carousel .carousel-item {
+    height: 980px;
+  }
+  
+  .custom-carousel .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the entire carousel area */
+  }
+  
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap to reduce space */
+  }
+  
+  .icon {
+    font-size: 1.2rem; /* Reduce icon size */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .cart-icon {
+    position: relative;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+  }
+  
+  .icon-container {
+    position: relative;
+  }
+  
+  .cart-table, .user-profile {
+    position: absolute;
+    top: 40px; /* Adjust based on the height of your icons */
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+    width: 200px;
+    padding: 10px;
+  }
+  
+  .cart-table table, .user-profile table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-table th, .cart-table td, .user-profile th, .user-profile td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .user-profile a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .user-profile a:hover {
+    text-decoration: underline;
+  }
+  
