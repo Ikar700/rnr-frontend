@@ -1,6 +1,6 @@
 // Header.js
 import React, { useState } from 'react';
-import './Header.css';
+import '../App.css';
 import { FiShoppingCart, FiUser, FiHelpCircle } from 'react-icons/fi';
 import { BsSearch } from 'react-icons/bs';
 import Logo from '../img_files/RNR Logo.jpg';
@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className="header-top-strip">
-      <div className="container-xxl d-flex justify-content-between align-items-center">
+      <div className="header-container d-flex justify-content-between align-center">
         <div className="logo">
           <a href="/">
             <img src={Logo} alt="RNR Logo" />

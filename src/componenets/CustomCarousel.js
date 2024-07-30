@@ -1,6 +1,6 @@
 // CustomCarousel.js
 import React from 'react';
-import './CustomCarousel.css';
+import '../App.css';
 import { Carousel } from 'react-bootstrap';
 import Carousel1 from '../img_files/Carousel_1.jpg';
 import Carousel2 from '../img_files/Carousel_2.jpg';
